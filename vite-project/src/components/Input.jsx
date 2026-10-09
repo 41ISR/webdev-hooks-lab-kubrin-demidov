@@ -1,8 +1,6 @@
-export const Input = () => {
+export const Input = ({...reset}) => {
     return (
-<input
-          className="input"
-          id="bookInput"
-          placeholder="Название книги..."
+<input className="input"
+          {...reset}
         />
     )}
